@@ -15,4 +15,4 @@ phases:
     - echo "Entered the post_build phase"
 artifacts:
   files:
-    - target/deploy/**/*
+    - target/**/*
