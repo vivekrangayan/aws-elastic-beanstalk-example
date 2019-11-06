@@ -15,5 +15,4 @@ phases:
     - echo "Entered the post_build phase"
 artifacts:
   files:
-    - **/*
-  base-directory: 'target/aws-elastic-bean-stalk-example-0.0.1-SNAPSHOT'
+    - target/aws-elastic-bean-stalk-example-0.0.1-SNAPSHOT/**/*
