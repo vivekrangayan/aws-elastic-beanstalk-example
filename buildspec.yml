@@ -16,3 +16,4 @@ phases:
 artifacts:
   files:
     - target/aws-elastic-bean-stalk-example-0.0.1-SNAPSHOT/**/*
+    discard-paths: yes
