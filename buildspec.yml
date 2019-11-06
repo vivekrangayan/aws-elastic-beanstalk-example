@@ -9,11 +9,10 @@ phases:
   build:
     commands:
     - echo "Entered the build phase"
-    - mvn package
+    - mvn package war:war
   post_build:
     commands:
     - echo "Entered the post_build phase"
 artifacts:
   files:
-    - target/aws-elastic-bean-stalk-example-0.0.1-SNAPSHOT/**/*
-    discard-paths: yes
+    - target/aws-elastic-bean-stalk-example-0.0.1-SNAPSHOT.war
